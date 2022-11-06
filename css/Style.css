@@ -178,9 +178,28 @@ header .menu a {
     font-size: 1.4rem;
 }
 
-.card .btn-danger {
+.card .btn-danger { 
     background-color: #c31616;
     border-color: #c31616;
     width: 100%;
     text-transform: uppercase; 
+}
+
+/* BREAKPOINTS */
+/* 
+CELULARES 0 px - 767 px
+tablets 768 px - 991 px
+desktop 992 px - 8k
+*/
+
+/* TABLTS - tablets 768 px - 991 px */
+@media all and (max-width: 991px) {
+    .patrocinados {
+        display: none;
+    }
+}
+
+/* SMARTPHONES - CELULARES 0 px - 767 px */  
+@media all and (max-width: 767px) {
+    
 }
