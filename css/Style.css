@@ -15,6 +15,7 @@
 
 body{ 
     font-family: 'Roboto-Regular';
+    color: white; /*herança*/
 }
 
 
@@ -32,6 +33,8 @@ body{
 .card{
     margin-bottom: 10px;
 }
+
+
 /*Cabeçalho*/
 .header-flex {
     /* flex container */
@@ -151,4 +154,32 @@ header .menu a {
 
 .produtos {
     background-color: #1E1C21;
+    padding: 30px 0;
+}
+
+.produtos {
+    font-family: 'roboto-medium';
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.card{
+    max-width: 250px;
+    margin-bottom: 20px;
+    background-image: linear-gradient( to bottom, #000000, #1e1c21);
+}
+
+.card .card-title {
+    font-family: 'Roboto-Medium';
+    text-transform: uppercase;
+}
+
+.card .card-price {
+    font-size: 1.4rem;
+}
+
+.card .btn-danger {
+    background-color: #c31616;
+    width: 100%;
+    text-transform: uppercase; 
 }
