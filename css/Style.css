@@ -259,4 +259,17 @@ desktop telas grandes 992 px - 1199px
     }
 
     /* SMARTPHONES - CELULARES 0 px - 767 px */
-    @media all and (max-width: 767px)
+    @media all and (max-width: 767px) {
+
+        .header-flex {
+            height: 65px;
+        }
+
+        .header .menu-bars {
+            width: 30px;
+        }
+
+    .header .logo  {
+        width: 200px;
+    }
+}
